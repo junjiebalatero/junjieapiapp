@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Iframe from 'react-iframe';
 
 class App extends Component{ 
 
@@ -37,8 +38,20 @@ class App extends Component{
                         </li>
                         ))};
                 </ul>
-            </div>         
-          
+                <ul>
+                	<h3>Use this backtrack to play Bosa Nova Tempo Non-stop Rendition</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/iFQ9e-nKtQY?start=136" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</ul>
+				<ul>
+					<h3>Use this backtrack to play Flor De Luna Santana backtrack</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/eVHsvYcJ9ks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</ul>
+				<ul>
+					<h3>Use this backtrack to play Matud Nila backtrack</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ap0J-GyuKkw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</ul>
+				
+            </div>           
         );
         }
     }
