@@ -11,7 +11,6 @@ class App extends Component{
     }
 
     componentDidMount() {
-
         fetch('https://junjienotes.herokuapp.com/api/posts')
             .then(res => res.json())
             .then(json => {
@@ -20,46 +19,29 @@ class App extends Component{
                     items: json,
                 })
             });
-
     }
 
-
     render() {
-
         var { isLoaded, items } = this.state;
 
         if (!isLoaded) {
             return <div>Loading...</div>;
         }
-
         else {
-
         return (
-            <div className="App">
-                
+            <div className="App">                
                 <ul>
                     {items.map(item => (
                         <li key={item.uid}>
                             Date: {item.date} | Name: {item.name} | App: {item.app} | Username or Email: {item.username_or_email} | Password: {item.password} | Image Url: {item.imageUrl}
-
                         </li>
-
-
                         ))};
-
-
                 </ul>
-
-
-            </div>
+            </div>         
+          
         );
-
         }
-
     }
-
 }
-
-
 
 export default App;
