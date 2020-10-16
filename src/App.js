@@ -43,13 +43,13 @@ class App extends Component{
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/iFQ9e-nKtQY?start=136" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</ul>
 				<ul>
-					<h3>Use this backtrack to play Flor De Luna Santana backtrack</h3>
+					<h3>Use this backtrack to play Flor De Luna by Santana</h3>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/eVHsvYcJ9ks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</ul>
 				<ul>
-					<h3>Use this backtrack to play Matud Nila backtrack</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/ap0J-GyuKkw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</ul>
+                    <h3>Use this backtrack to play Europa by Santana</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lRjTCVrweGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </ul>
 				
             </div>           
         );
