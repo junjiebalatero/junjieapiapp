@@ -37,11 +37,7 @@ class App extends Component{
                             Date: {item.date} | Name: {item.name} | App: {item.app} | Username or Email: {item.username_or_email} | Password: {item.password} | Image Url: {item.imageUrl}
                         </li>
                         ))};
-                </ul>
-                <ul>
-                	<h3>Use this backtrack to play Bosa Nova Tempo Non-stop Rendition</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/iFQ9e-nKtQY?start=136" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</ul>
+                </ul>                
 				<ul>
 					<h3>Use this backtrack to play Flor De Luna by Santana</h3>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/eVHsvYcJ9ks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -58,7 +54,14 @@ class App extends Component{
                     <h3>Use this backtrack to play Wave by Jobim</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/MwEjps-Kdo0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </ul>
-				
+                <ul>
+                    <h3>Use this backtrack to play Bato Sa Buhangin by Cinderella</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6bfThhSUR-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </ul>	
+                <ul>
+                    <h3>Use this backtrack to play Matud Nila by Ben Zubiri</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ap0J-GyuKkw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </ul>   			
             </div>           
         );
         }
