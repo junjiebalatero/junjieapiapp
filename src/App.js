@@ -53,7 +53,11 @@ class App extends Component{
                 <ul>
                     <h3>Use this backtrack to play I Love You Much Too Much by Santana</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/EC-MFRqDjk8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </ul>
+                </ul>
+                <ul>
+                    <h3>Use this backtrack to play Wave by Jobim</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MwEjps-Kdo0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </ul>
 				
             </div>           
         );
