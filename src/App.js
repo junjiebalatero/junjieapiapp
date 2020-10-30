@@ -34,7 +34,19 @@ class App extends Component{
                 <ul>
                     {items.map(item => (
                         <li key={item.uid}>
-                            Date: {item.date} | Name: {item.name} | App: {item.app} | Username or Email: {item.username_or_email} | Password: {item.password} | Image Url: {item.imageUrl}
+                            Date Posted: {item.date} | 
+		            Ravencoin Asset Name: {item.ravencoin_asset_name} | 
+		            Total Circulating Supply: {item.total_circulating_supply} |
+		            Description: {item.description} | 
+		            For Sale: {item.for_sale} | 
+		            Contact Address: {item.contact_address} |
+			    Contact Email: {item.contact_email} |
+		            Contact Cellphone: {item.contact_cellphone} |
+		            Contact Phone: {item.contact_phone} |
+			    Nick Name: {item.nick_name} |
+		            Issuer: {item.issuer} |
+		            Website Url: {item.website_url} |
+		            IPFS Attachment: {item.IPFS_attachment} |
                         </li>
                         ))};
                 </ul>                
