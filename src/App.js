@@ -32,6 +32,7 @@ class App extends Component{
         return (
             <div className="App">                
                 <table striped bordered hover variant="dark">
+			<thead>
 			<tr>
 				<th>Date Posted</th>
 				<th>Ravencoin Asset Name</th>
@@ -47,6 +48,8 @@ class App extends Component{
 				<th>Website Url</th>
 				<th>IPFS Attachment</th>
 			</tr>
+			</head>
+			<tbody>
 		{items.map(item => (
 			<tr key={item.uid}>
 				<td>{item.date}</td>
@@ -64,6 +67,7 @@ class App extends Component{
 				<td>{item.IPFS_attachment}</td>
 			</tr>
 		 ))};
+	    	</tbody>
 </table>             
 				<ul>
 					<h3>Use this backtrack to play Flor De Luna by Santana</h3>
