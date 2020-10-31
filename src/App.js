@@ -34,7 +34,7 @@ class App extends Component{
                 <ul>
                     {items.map(item => (
                         <li key={item.uid}>
-                            Date: {item.date} | Ravencoin Asset Name: {item.ravencoin_asset_name} | Description: {item.description}
+                            Date: {item.date} | Ravencoin Asset Name: {item.ravencoin_asset_name} | Description: {item.description} | Issuer: {item.issuer}
                         </li>
                         ))};
                 </ul>                
