@@ -31,7 +31,7 @@ class App extends Component{
         else {
         return (
             <div className="App">                
-                <table id="customers">
+                <table>
 			<tr>
 				<th>Date Posted</th>
 				<th>Ravencoin Asset Name</th>
