@@ -31,7 +31,7 @@ class App extends Component{
         else {
         return (
             <div className="App">                
-                <table>
+                <table striped bordered hover variant="dark">
 			<tr>
 				<th>Date Posted</th>
 				<th>Ravencoin Asset Name</th>
