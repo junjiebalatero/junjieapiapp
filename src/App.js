@@ -31,13 +31,40 @@ class App extends Component{
         else {
         return (
             <div className="App">                
-                <ul>
-                    {items.map(item => (
-                        <li key={item.uid}>
-                            Date Posted: {item.date} | Ravencoin Asset Name: {item.ravencoin_asset_name} | Total Circulating Supply: {item.total_circulating_supply} | Description: {item.description} | For Sale: {item.for_sale} | Contact Address: {item.contact_address} | Contact Email: {item.contact_email} | Contact Cellphone: {item.contact_cellphone} | Contact Phone: {item.contact_phone} | Nick Name: {item.nick_name} | Issuer: {item.issuer} | Website Url: {item.website_url} | IPFS Attachment: {item.IPFS_attachment}
-                        </li>
-                        ))};
-                </ul>                
+                <table>
+			<tr>
+				<th>Date Posted</th>
+				<th>Ravencoin Asset Name</th>
+				<th>Total Circulating Supply</th>
+				<th>Description</th>
+				<th>For Sale</th>
+				<th>Contact Address</th>
+				<th>Contact Email</th>
+				<th>Contact Cellphone</th>
+				<th>Contact Phone</th>
+				<th>Nick Name</th>
+				<th>Issuer</th>
+				<th>Website Url</th>
+				<th>IPFS Attachment</th>
+			</tr>
+		{items.map(item => (
+			<tr key={item.uid}>
+				<td>{item.date}</td>
+				<td>{item.ravencoin_asset_name}</td>
+				<td>{item.total_circulating_supply}</td>
+				<td>{item.description}</td>
+				<td>{item.for_sale}</td>
+				<td>{item.contact_address}</td>
+				<td>{item.contact_email}</td>
+				<td>{item.contact_cellphone}</td>
+				<td>{item.contact_phone}</td>
+				<td>{item.nick_name}</td>
+				<td>{item.issuer}</td>
+				<td>{item.website_url}</td>
+				<td>{item.IPFS_attachment}</td>
+			</tr>
+		 ))};
+</table>             
 				<ul>
 					<h3>Use this backtrack to play Flor De Luna by Santana</h3>
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/eVHsvYcJ9ks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
