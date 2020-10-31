@@ -49,9 +49,9 @@ class App extends Component{
 				<th>IPFS Attachment</th>
 			</tr>
 			</head>
-			<tbody>
-		{items.map(item => (
-			<tr key={item.uid}>
+			{items.map(item => (
+			<tbody key={item.uid}>		
+			<tr>
 				<td>{item.date}</td>
 				<td>{item.ravencoin_asset_name}</td>
 				<td>{item.total_circulating_supply}</td>
