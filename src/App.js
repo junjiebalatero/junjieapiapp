@@ -63,13 +63,6 @@ class App extends Component{
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/ap0J-GyuKkw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </ul>
             </div>   
-	    
-	        <div>
-	        	<!-- Beginning of tippin.me Button -->
-                        <div id="tippin-button" data-dest="JunjieBalatero" data-dark="true"></div>
-                        <script src="https://tippin.me/buttons/tip.js?0001" type="text/javascript"></script>
-                        <!-- End of tippin.me Button -->
-	        </div>
         );
         }
     }
