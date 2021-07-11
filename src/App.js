@@ -12,7 +12,7 @@ class App extends Component{
     }
 
     componentDidMount() {
-        fetch('https://junjienotes.herokuapp.com/api/posts')
+        fetch('https://junjiemegavision.herokuapp.com/api/posts')
             .then(res => res.json())
             .then(json => {
                 this.setState({
